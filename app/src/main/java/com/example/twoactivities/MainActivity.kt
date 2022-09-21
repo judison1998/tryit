@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(LOG_TAG,"Button clicked!")
     }
 
-     fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) : MainActivity  {
+     fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent)   {
 
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == TEXT_REQUEST) {
